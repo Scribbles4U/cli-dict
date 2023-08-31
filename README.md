@@ -5,7 +5,7 @@ Simple command line dictionary look up tool
 Setup alias to main (replacing <PATHTOREPO> with actual path) in your .bashrc or .zshrc:
 
 ```
-alias def="<PATHTOREPO>/main.py
+alias def="<PATHTOREPO>/main.py"
 ```
 
 Use updated config in current terminal session
