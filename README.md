@@ -8,7 +8,7 @@ Setup alias to main (replacing <PATHTOREPO> with actual path) in your .bashrc or
 alias def="<PATHTOREPO>/main.py"
 ```
 
-Use updated config in current terminal session
+Use updated config in current terminal session:
 
 ```
 . .zshrc
