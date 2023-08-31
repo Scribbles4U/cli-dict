@@ -3,18 +3,30 @@ Simple command line dictionary look up tool
 
 #### Installation:
 Setup alias to main (replacing <PATHTOREPO> with actual path) in your .bashrc or .zshrc:
-`alias def="<PATHTOREPO>/main.py`
+
+```
+alias def="<PATHTOREPO>/main.py
+```
 
 Use updated config in current terminal session
-`. .zshrc`
+
+```
+. .zshrc
+```
 
 Install requirements (setup a virtual env if desired):
-`pip install -r requirements.txt`
+
+```
+pip install -r requirements.txt
+```
 
 #### Usage:
 
 Lookup words:
-`def pneumonoultramicroscopicsilicovolcanoconiosis`
+
+```
+def pneumonoultramicroscopicsilicovolcanoconiosis
+```
 
 Output:
 
