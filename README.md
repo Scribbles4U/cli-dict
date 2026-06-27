@@ -1,5 +1,5 @@
 # CLI Dictionary Lookup
-Simple command line dictionary look up tool
+Simple command line dictionary lookup tool.
 
 #### Installation:
 Setup alias to main (replacing <PATHTOREPO> with actual path) in your .bashrc or .zshrc:
@@ -28,11 +28,29 @@ Lookup words:
 def pneumonoultramicroscopicsilicovolcanoconiosis
 ```
 
-Output:
+Default output uses Rich formatting with color, bold headings, a bordered panel, and a table. Use `--plain` or `--no-color` for scripts and terminals where styling is unwanted.
+
+Plain output:
+
+```
+def pneumonoultramicroscopicsilicovolcanoconiosis --plain
+```
 
 ```
 Word: pneumonoultramicroscopicsilicovolcanoconiosis
-Type: noun
+
+[1] noun
 Definition: A disease of the lungs, allegedly caused by inhaling microscopic silicate particles originating from eruption of a volcano.
-Example: None
+```
+
+Show every returned definition:
+
+```
+def test --all
+```
+
+Return normalized JSON for scripts:
+
+```
+def test --json --all
 ```
